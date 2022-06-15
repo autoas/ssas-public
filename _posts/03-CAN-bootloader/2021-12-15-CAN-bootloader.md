@@ -67,7 +67,7 @@ D:\repository\ssas-public>scons --cpl=QemuVersatilepbGCC --app=VersatilepbCanBL
 D:\repository\ssas-public>scons --cpl=QemuVersatilepbGCC --app=VersatilepbCanApp
 
 # 切换到 sim 页，运行CAN总线模拟器
-D:\repository\ssas-public>build\nt\GCC\CanSimulator\CanSimulator.exe 0
+D:\repository\ssas-public>build\nt\GCC\CanSimulator\CanSimulator.exe 0 | tee
 
 # 切换回 app 页，启动qemu虚拟机
 # 如果qemu没有安装，使用命令 “pacman -S mingw-w64-x86_64-qemu”进行安装
